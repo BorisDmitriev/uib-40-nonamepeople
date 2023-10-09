@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+
+.clearfix{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+a{
+    text-decoration: none;
+    color: #000F37;
+}
+
+button{
+    all: unset;
+}
+
+h1{
+    color: #000F37;
+}
+
+h2{
+    color: #000F37;
+}
+
+p {
+   color: #4F4F4F
+}
+
+.row  {
+    width: 100%;
+}
+
+/* header */
+.nav{
+    padding: 6rem;
+    color: rgb(104, 225, 253);
+    width: 96vw;
+    margin: 0 auto;
+}
+
+.nav__logo-img{
+    width: 3%;
+}
+
+.nav__logo-text{
+    margin-left: 1rem;
+    display: inline-block;
+    font-size: 2em;
+}
+
+.nav__btn-menu-img{
+    width: 5rem;
+    height: 8rem;
+    position: fixed;
+    right: 14rem;
+    top: 4rem;
+}
+
+header a:active{
+   color: rgba(46, 46, 46, 0.701);;
+}
+
+/* hero  section*/
+.hero{
+    padding: 29rem 0 5rem 0;
+    width: 91vw;
+    margin: 0 auto;
+}
+
+.hero__img{
+    width: 75%;
+    position: relative;
+    left: 11rem;
+    top: -15rem;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.hero__text{
+    position: relative;
+    right: -15rem;
+}
+
+.hero__text h1{
+    margin: 0 0 3rem 0;
+    font-size: 5rem;
+}
+
+.hero__text p{
+    margin: 0 0 4rem 0;
+    width: 93%;
+}
+
+.hero__btn{
+    padding: 1rem 2rem;
+    display: inline-block;
+    background-color: rgb(104, 225, 253);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* service */
+.service{
+    padding: 9rem 0 9rem 0;
+    width: 100vw;
+    background-color: rgb(104, 225, 253);
+}
+
+.service h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0 0 4rem 0;
+}
+
+.service p{
+    width: 44%;
+    text-align: center;
+    margin: 0 auto 7rem;
+}
+
+.card{
+    margin: 0 auto;
+    width: 49%;
+    background-color: #fff;
+    padding: 11rem;
+}
+
+.card ul{
+    list-style: none;
+    font-size: 2rem;
+    line-height: 6rem;
+}
+
+.card ul li::before{
+    content: "";
+    display: inline-block;
+    width: 3rem;
+    aspect-ratio: 1 / 1;
+    background: center / cover url(../assets/png/check-mark.png);
+    position: relative;
+    left: -.5rem;
+    top: .6rem;
+}
+
+.card img{
+    width: 93%;
+}
+
+/* footer */
+footer p{
+    color: #000000;
+    padding: 4rem;
+    position: relative;
+}
+
+.copy{
+    padding-right: .5rem;
+}
+
+.icons{
+    display: inline-block;
+    font-weight: 700;
+    position: absolute;
+    left: 162rem;
+    top: 3rem;
+    font-size: 3rem;
+}
+
+.icons i[class^="fa"]:not(:last-child){
+    margin-right: 2rem;
+}
